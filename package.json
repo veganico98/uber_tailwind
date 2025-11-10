@@ -1,0 +1,29 @@
+{
+  "name": "uber_tailwind",
+  "version": "1.0.0",
+  "description": "landing page uber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./styles/styles.css -o ./styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veganico98/uber_tailwind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veganico98/uber_tailwind/issues"
+  },
+  "homepage": "https://github.com/veganico98/uber_tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.17"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "@tailwindcss/postcss": "^4.1.17",
+    "postcss": "^8.5.6"
+  }
+}
